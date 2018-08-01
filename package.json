@@ -1,0 +1,45 @@
+{
+  "name": "UnicomSmartContracts",
+  "version": "1.0.0",
+  "description": "Unicom Token and Smart Contracts",
+  "main": "",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "chai-bignumber": "^2.0.1",
+    "solidity-test-util": "^1.0.0",
+    "truffle": "^2.1.1"
+  },
+  "scripts": {
+    "test": "truffle.cmd compile && sh run_tests.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:SBInvestitions/SBI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "json2csv": "^3.11.5",
+    "path": "^0.12.7",
+    "solc": "0.4.24",
+    "web3": "^1.0.0-beta.24"
+  },
+  "standard": {
+    "globals": [
+      "it",
+      "assert",
+      "beforeEach",
+      "afterEach",
+      "describe",
+      "contract",
+      "artifacts",
+      "web3"
+    ]
+  }
+}
